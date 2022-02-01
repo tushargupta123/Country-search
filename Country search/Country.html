@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styling.css">
+  <title>Country Search</title>
+</head>
+
+<body>
+
+  <header class="items">
+        <div id="item1">
+                <img src="countrysearch.jpg" alt="" style="padding: 10px;">   
+              </div>
+              <div id="item2">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Country Search" id="myInput" onkeyup="searching()">
+                  <span class="input-group-text" id="basic-addon2">Go</span>
+                </div>                
+               <table id="myUl"> 
+                <tr><td><a href="india.html">India</a></td></tr>
+                      <tr><td><a href="USA.html">United states of america</a></td></tr>
+                      <tr><td><a href="brazil.html">Brazil</a></td></tr>
+                      <tr><td><a href="france.html">France</a></td></tr>
+                      <tr><td><a href="china.html">China</a></td></tr>
+                      <tr><td><a href="canada.html">Canada</a></td></tr>
+               </table>
+                    </div>
+                   <div id="item3">
+
+                   </div>
+                    </div>
+  </header>
+  <!-- <img src="upper.JPG" style="width: 100%; height: 400px; margin-top: -600px; "> -->
+  <div class="card mb-3" style="width: 100%; margin-top: -550px; ">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="sidebar.jfif"  height="600px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Countries. . .</h5>
+          <p class="card-text">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    India
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>India, the world's largest democracy, has a very diverse population, geography, and climate. </strong>India, the world's largest democracy, has a very diverse population, geography, and climate. India is the world's second most populous country, as well as the seventh largest in area. Tourist facilities offer varying degrees of comfort. Amenities are widely available in large cities and tourist areas.
+                    <a href="india.html">Know more..</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    United States Of America
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country primarily located in North America.</strong>  It consists of 50 states, a federal district, five major unincorporated territories, 326 Indian reservations, and some minor possessions. At nearly 3.8 million square miles (9.8 million square kilometers), it is the world's third- or fourth-largest country by geographic area.
+                    <a href="USA.html">Know more..</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    China
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>The People's Republic of China was established on October 1, 1949, with Beijing as its capital city. </strong>With well over 1.3 billion citizens, China is the world's most populous country and the fourth-largest in terms of territory. Although political power remains centralized in the Chinese Communist Party, China is undergoing profound economic and social changes. Modern tourist facilities are available in major cities, but many facilities in smaller provincial cities and rural areas may be below international standards.
+                    <a href="china.html">Know more..</a>
+                  </div>
+                </div>
+              </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Canada
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Canada is the second largest country in the world in land area, and has large mountain ranges and extensive coastlines.</strong> Tourist facilities are widely available in much of the country, but the northern and wilderness areas are less developed and facilities there can be vast distances apart. It is a highly developed stable democracy with a vibrant economy. English and French are the official languages.
+                      <a href="canada.html">Know more..</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    France
+                    </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>France is a developed and stable democracy with a modern economy. Tourist facilities are widely available.
+                        <a href="france.html">Know more..</a>
+                      </strong> 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Brazil
+                    </button>
+                  </h2>
+                  <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>The fifth largest country in the world, Brazil is a Portuguese-speaking country with a robust economy.</strong>  It consists of 26 states and a Federal District. Tourist facilities are excellent in major cities but vary in quality in remote areas.
+                      <a href="brazil.html">Know more..</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="search.js"></script>
+</body>
+</html>

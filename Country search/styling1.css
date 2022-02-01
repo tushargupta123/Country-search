@@ -1,0 +1,71 @@
+body{
+    background-image: url(background.jfif);
+    background-attachment: fixed;
+}
+h1{
+    text-underline-position:calc();
+    color:  rgb(1, 53, 54) ;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: crimson ;
+}
+.items{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: repeat(5,200px) ;
+}
+#item1 {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#item2 {
+    grid-row-start: 1;
+    grid-row-end: 20 ;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background: rgb(255, 251, 251);
+    border-radius: 6px;
+    text-align: center;
+}
+#item3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table{
+    margin-left: 20px;
+}
+tr{
+    text-align: justify; 
+}
+td{
+    padding: 20px;
+}
+tr:nth-child(even){background-color: #bb8f8f;}
+tr:nth-child(odd){background-color: #e4d7d7;}
+ul{
+    text-align: justify;
+}
+.text{
+    text-align: justify;
+    margin-left: 20px;
+}
+h3{
+    color: crimson ;
+}
+#flags {
+    width: 800px;
+    height: 400px;
+}
+a{
+    color: #ffedff;
+    font-weight: 700;
+    font-size: large;
+}
+a:hover{
+    color: rgb(131, 131, 36);
+}
